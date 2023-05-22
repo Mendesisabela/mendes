@@ -13,12 +13,18 @@
             <%= pessoa.nome %>
             <%= pessoa.sobrenome %>
             <%= pessoa.idade %>
-            <%= pessoa.altura %></br>
+            <%= pessoa.altura %>
 
-            <button> <a href="/pessoas/delete"> Deletar </a></button>
+            <button><a href="/pessoas/deletar?id=<%=pessoa.id%>">Deletar</a></button>
+ 
+            
 
         </form>
-
     <% }) %>
+
+    <br>
+
+    <button><a href="/pessoas/criar">Voltar</a></button>
+
 </body>
 </html>
