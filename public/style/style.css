@@ -6,7 +6,7 @@ body{
     height: 100vh;
 }
   
-.form{
+form{
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
@@ -14,16 +14,24 @@ body{
     padding: 20px;
     width: 320px;
 }
-  
-.h1{
+
+h1{
     color: #eee;
     font-family: sans-serif;
     font-size: 36px;
     font-weight: 600;
     margin-top: 30px;
 }
-  
-.input{
+
+p{
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+input{
     background-color: #303245;
     border-radius: 12px;
     border: 0;
@@ -35,7 +43,7 @@ body{
     padding: 4px 20px 0;
     width: 100%;
 }
- 
+
 .placeholder{
     color: #65657b;
     font-family: sans-serif;
@@ -47,17 +55,25 @@ body{
     transition: transform 200ms, color 200ms;
     top: 20px;
 }
-.submit{
-    background-color: #08d;
-    border-radius: 12px;
-    border: 0;
-    box-sizing: border-box;
-    color: #eee;
+
+.botao{
+    background-color: #F88379;
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 20px;
+    border: none; 
     cursor: pointer;
-    font-size: 18px;
-    height: 50px;
-    margin-top: 38px;
-    text-align: center;
-    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 160px;
 }
+
+.botao:hover {
+    color: #e9e5e5;
+}
+
+.botao:active{
+  box-shadow: 0 5px #4d4645;
+  transform: translateY(2px);
+}
+
   
