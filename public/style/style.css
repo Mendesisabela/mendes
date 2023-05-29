@@ -38,7 +38,6 @@ input{
     box-sizing: border-box;
     color: #eee;
     font-size: 18px;
-    height: 100%;
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
@@ -56,7 +55,7 @@ input{
     top: 20px;
 }
 
-.botao{
+button{
     background-color: #F88379;
     border-radius: 30px;
     font-size: 22px;
@@ -64,16 +63,14 @@ input{
     border: none; 
     cursor: pointer;
     margin-bottom: 20px;
-    margin-left: 160px;
+    margin-left: 90px;
 }
 
-.botao:hover {
+button:hover {
     color: #e9e5e5;
 }
 
-.botao:active{
+button:active{
   box-shadow: 0 5px #4d4645;
   transform: translateY(2px);
 }
-
-  

@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='/style/stylee.css'>
     <title>Cadastro</title>
 </head>
 <body>
         <% pessoas.forEach((pessoa) => {%>
         <form>
+           <div> <%= pessoa.nome %></div>
+           <div> <%= pessoa.sobrenome %> </div>
+            <div> <%= pessoa.idade %> </div>
+            <div> <%= pessoa.altura %> </div>
 
-            <%= pessoa.nome %>
-            <%= pessoa.sobrenome %>
-            <%= pessoa.idade %>
-            <%= pessoa.altura %>
-
-            <button><a href="/pessoas/deletar?id=<%=pessoa.id%>">Deletar</a></button>
+<button id="deletar"><a href="/pessoas/deletar?id=<%=pessoa.id%>">Deletar</a></button>
  
             
 
         </form>
+
     <% }) %>
 
     <br>
-
-    <button><a href="/pessoas/criar">Voltar</a></button>
+<div >
+    <button id="voltar"><a href="/pessoas/criar">Voltar</a></button>
+</div>
 
 </body>
 </html>

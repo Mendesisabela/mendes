@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+    width: 25%;
+    background-color: rgb(171, 165, 226);
+}
+
+ form {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #4d4645;
+    color:  cornsilk;
+    border-radius: 5px;
+  }
+  
+form:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.div {
+    padding: 2px 16px;
+  } 
+
+
+#deletar{
+    background-color: #F88379;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 20px;
+    border: none; 
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 190px;
+    text-decoration: none;
+}
+
+#voltar{
+        background-color: #5aa733;
+        border-radius: 30px;
+        font-size: 16px;
+        padding: 20px;
+        border: none; 
+        cursor: pointer;
+        margin-left: 400px;
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+}
